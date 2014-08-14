@@ -73,7 +73,7 @@ toolPromise.then(function() {
   p.delay(1000).then(function(){ 
     return simplifyIds(db.user_tools);
   }).then(function(){
-    console.log("Finished");
+    //console.log("Finished");
     db.close();
   });
 });
