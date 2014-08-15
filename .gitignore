@@ -1,6 +1,5 @@
-.emacs.desktop
-.emacs.desktop.lock
-all.log
 command-recommender/
 node_modules/
 process-recommendations.sh
+log4j2.xml
+*.log
