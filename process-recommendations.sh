@@ -16,6 +16,7 @@ declare -a ALGORITHM_TYPES=("MOST_FREQUENTLY_USED" "MOST_WIDELY_USED" "HOTKEY_NO
 function pre {
   echo Beginning recommendation generation
   #add pre-process actions here
+  node pre-process.js
 }
 
 function post {

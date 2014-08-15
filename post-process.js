@@ -2,8 +2,6 @@ var _ = require("lodash");
 var Promise = require('bluebird');
 var db = require("./db");
 
-db.user_tools.remove();
-
 function reduce(key, values) {
   var result = {};
   values.forEach(function(value) {
