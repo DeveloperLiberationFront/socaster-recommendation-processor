@@ -50,7 +50,9 @@ function mapRecs() {
         reason_value: this.reason_value
       }]
   }
-  emit({_id: this.command_id, user: this.user_id}, values);
+  if (this.rank) {
+      emit({_id: this.command_id, user: this.user_id}, values);
+  }
 }
 
 function simplifyIds(collection) {
