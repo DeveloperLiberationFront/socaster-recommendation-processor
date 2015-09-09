@@ -1,0 +1,19 @@
+{
+  "name": "socaster-recommendation-processor",
+  "version": "0.0.0",
+  "description": "Processes recommendations",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bluebird": "~2.3.0",
+    "lodash": "~2.4.1",
+    "mongojs": "~0.13.1"
+  }
+}
+
