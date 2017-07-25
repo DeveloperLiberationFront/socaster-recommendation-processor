@@ -24,6 +24,6 @@ var collections = [
   "users",
   "yammer_tokens"
 ];
-var db = mongojs.connect(url, collections);
+var db = mongojs(url, collections);
 
 module.exports = db;

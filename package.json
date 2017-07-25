@@ -13,7 +13,7 @@
   "dependencies": {
     "bluebird": "~2.3.0",
     "lodash": "~2.4.1",
-    "mongojs": "~0.13.1"
+    "mongojs": "^2.4.0"
   }
 }
 
