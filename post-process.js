@@ -1,6 +1,5 @@
 var _ = require("lodash");
 var Promise = require('bluebird');
-var mongoose = Promise.promisifyAll(require('mongoose'));
 var db = require("./db");
 
 Promise.promisifyAll([
