@@ -11,9 +11,9 @@
     "tests"
   ],
   "dependencies": {
-    "bluebird": "~2.3.0",
-    "lodash": "~2.4.1",
-    "mongojs": "^2.4.0"
+    "bluebird": "~3.5.0",
+    "lodash": "~4.17.4",
+    "mongojs": "~2.4.0"
   }
 }
 

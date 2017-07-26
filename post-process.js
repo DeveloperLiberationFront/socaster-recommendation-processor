@@ -1,6 +1,13 @@
 var _ = require("lodash");
 var Promise = require('bluebird');
+var mongoose = Promise.promisifyAll(require('mongoose'));
 var db = require("./db");
+
+Promise.promisifyAll([
+	require("mongojs/lib/collection"),
+	require("mongojs/lib/database"),
+	require("mongojs/lib/cursor")
+]);
 
 function reduce(key, values) {
   var result = {};
